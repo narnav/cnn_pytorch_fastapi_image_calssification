@@ -1,0 +1,1 @@
+need python < 3.12
