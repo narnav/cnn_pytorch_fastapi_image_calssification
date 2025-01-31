@@ -8,7 +8,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from torchvision.datasets import ImageFolder
-from pred_image import train_with_image
+# from pred_image import train_with_image
 from torch.utils.data import DataLoader
 import torch.optim as optim
 import tempfile
